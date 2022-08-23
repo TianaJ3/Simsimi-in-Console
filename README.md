@@ -1,2 +1,2 @@
-# 재미로
+# #재미로
 Simsimi Talk!
