@@ -1,2 +1,2 @@
-# Simsimi-in-Console
+# 재미로
 Simsimi Talk!
