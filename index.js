@@ -36,9 +36,9 @@ async function simsim(text, level) {
 }
 function shouldIncludeTippy() {
     rl.question("질문: ".green, async (text) => {
-        await simsim(text, level).then(r => console.log(colors.yellow("[ 심심이 ] :", r)));
+        await simsim(text, level).then(r => console.log(colors.yellow("[ 심심이 ]:", r)));
         shouldIncludeTippy();
     })
 }
-let level = ps("레벨 (숫자):".red);
+let level = ps("레벨 (숫자): ".red);
 shouldIncludeTippy();
